@@ -2,3 +2,40 @@
     background-color: #607d8b;
     color: #ffffff;
   }
+/* Universal Designs */
+
+  .footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 90px;
+    background-color: #D0DAEE;
+
+    text-align: center;
+    color: white;
+  }
+
+  .header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 90px;
+    background-color: #D0DAEE;
+  }
+
+  .footer-text {
+    color: #ffffff;
+  }
+
+  /* Photos */
+
+  .profile-pic {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    object-fit: cover;
+  }
